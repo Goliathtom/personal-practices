@@ -28,7 +28,5 @@ func solution(arrangement string) int {
 }
 
 func main() {
-	arrangement := "()(((()())(())()))(())"
-
-	fmt.Println(solution(arrangement))
+	fmt.Println(solution("()(((()())(())()))(())"))
 }
